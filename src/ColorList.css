@@ -1,0 +1,30 @@
+.ColorList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ColorList-button {
+    text-align: center;
+    text-decoration: none;
+    padding-top: 10px;
+    margin-bottom: 25px;
+    width: 100px;
+    height: 35px;
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+    color: white;
+    font-size: larger;
+    border-radius: .15cm;
+}
+
+.ColorList-button:hover {
+    scale: 1.1;
+}
+
+.ColorList-item {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: larger;
+    font-weight: bold;
+}

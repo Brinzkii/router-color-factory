@@ -1,0 +1,10 @@
+.Color {
+    height: 100vh;
+    width: 100vw;
+}
+
+.Color-title {
+    color: white;
+    text-decoration: underline;
+    padding-top: 40vh;  
+}
